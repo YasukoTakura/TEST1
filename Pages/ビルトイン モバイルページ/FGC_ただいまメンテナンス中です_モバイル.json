@@ -1,0 +1,70 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,2": "ただいまメンテナンス中です",
+    "6,2": "現在メンテナンスを行っているため、目的のサイトにアクセスできません。",
+    "10,2": "ご迷惑をおかけしますが、お時間をおいて後ほどアクセスしてください。"
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 21.333333969116211,
+        "Foreground": 0,
+        "Formatter": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 4,
+        "Foreground": 5,
+        "Formatter": 1,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 -50",
+        "[AUTO]General",
+        "Center",
+        "Bottom",
+        "Bold",
+        "#FF7F7F7F",
+        "Body",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "6,2": 1,
+      "10,2": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 6,
+      "FontSize": 13.333333015441895,
+      "Foreground": 7
+    }
+  },
+  "Spans": [
+    "2,2,2,14",
+    "6,2,4,14",
+    "10,2,3,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "Title": "ただいまメンテナンス中です",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

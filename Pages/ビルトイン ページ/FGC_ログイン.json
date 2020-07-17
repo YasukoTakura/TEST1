@@ -1,0 +1,317 @@
+{
+  "Rows": {
+    "Sizes": {
+      "15": 10.0,
+      "19": 10.0,
+      "24": 15.0,
+      "28": 10.0,
+      "29": 15.0,
+      "30": 10.0,
+      "31": 15.0
+    },
+    "Count": 37
+  },
+  "Cols": {
+    "Count": 56
+  },
+  "Values": {
+    "13,21": "ユーザー名",
+    "17,21": "パスワード",
+    "23,21": "ログイン",
+    "26,21": "パスワードを忘れた場合",
+    "28,19": "Administratorアカウント",
+    "28,29": "Administrator",
+    "30,21": "パスワード",
+    "30,29": 123456
+  },
+  "AttachInfos": {
+    "5,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "14,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "Icon": {
+          "Name": "Navigation/169_user_2.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "TemplateKey": "_RS_LargeRoundCorner_LightTheme_Normal3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ForguncyAttribute": "LogIn_Username"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "18,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/078_lock_1.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "TemplateKey": "_RS_LargeRoundCorner_LightTheme_Normal3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ForguncyAttribute": "LogIn_Password"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "21,21": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, Forguncy",
+        "Caption": "ログインしたままにする",
+        "Style": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ForguncyAttribute": "LogIn_RememberMe"
+      }
+    },
+    "23,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "Text": "ログイン",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_RoundCorner_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ForguncyAttribute": "LogIn_Button"
+      }
+    },
+    "26,21": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "FGC_パスワードを忘れた場合",
+            "PassValues": []
+          }
+        ],
+        "Text": "パスワードを忘れた場合",
+        "ClickMode": 1,
+        "TemplateKey": "FGC_Style5",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "Foreground": 1,
+        "Formatter": 0
+      },
+      {
+        "Formatter": 2
+      },
+      {
+        "Foreground": 1,
+        "HorizontalAlignment": 3
+      },
+      {
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "Underline": true
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "Foreground": 1,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "Foreground": 1
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "Foreground": 1,
+        "HorizontalAlignment": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]General",
+        "Text 1 35",
+        "@",
+        "Left",
+        "Accent 1 0",
+        "Center",
+        "Right",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "13,21": 1,
+      "14,21": 2,
+      "17,21": 1,
+      "18,21": 2,
+      "21,21": 3,
+      "26,21": 4,
+      "28,19": 5,
+      "28,29": 6,
+      "30,21": 5,
+      "30,29": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 7
+    }
+  },
+  "Spans": [
+    "5,21,4,14",
+    "14,21,2,14",
+    "18,21,2,14",
+    "23,21,2,14",
+    "28,29,2,6",
+    "30,29,2,6",
+    "28,19,2,9",
+    "30,21,2,7",
+    "26,21,1,14",
+    "21,21,1,14"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "PCLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "d7c41f6d-8542-49f9-a003-8fb0bd9de009.png",
+      "Size": "1120,685"
+    },
+    {
+      "StyleInfo": {
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "BackgroundPicture0",
+      "Location": "380,220",
+      "Size": "360,385"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "MobilePageName": "FGC_ログイン_モバイル",
+    "Title": "ログイン",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

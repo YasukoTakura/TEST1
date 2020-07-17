@@ -1,0 +1,205 @@
+{
+  "Rows": {
+    "Sizes": {
+      "12": 30.0,
+      "14": 30.0
+    },
+    "Count": 25
+  },
+  "Cols": {
+    "Sizes": {
+      "20": 30.0,
+      "21": 10.0
+    },
+    "Count": 47
+  },
+  "Values": {
+    "5,12": "パスワードを忘れた場合",
+    "8,12": "ユーザー名もしくはメールアドレスを入力し、送信してください。パスワードリセットのためのリンクが記載されたメールが送信されます。メールを受信後、そのリンクを開いて新しいパスワードを入力することができます。",
+    "13,12": "ユーザー名、またはメール アドレス",
+    "17,25": "メールを送信",
+    "17,31": "キャンセル"
+  },
+  "AttachInfos": {
+    "14,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ForguncyAttribute": "ForgotPassword_UserOrEmail"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "17,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "Text": "メールを送信",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ForguncyAttribute": "ForgotPassword_Send"
+      }
+    },
+    "17,31": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "キャンセル",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "Foreground": 0,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 14.0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Formatter": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontSize": 14.0
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 4,
+        "Foreground": 5,
+        "HorizontalAlignment": 6
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "Text 1 35",
+        "Right",
+        "@",
+        "Bold",
+        "Accent 1 0",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,12": 0,
+      "8,12": 1,
+      "13,12": 2,
+      "14,22": 3,
+      "17,25": 4,
+      "17,31": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 7,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "5,12,3,24",
+    "8,12,5,24",
+    "17,25,2,5",
+    "17,31,2,5",
+    "14,22,1,13",
+    "13,12,3,9"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "0b03a0d4-cfe9-4e90-8373-4c372736e704.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "MasterPageName": "FGC_ユーザーマスターページ",
+    "MobilePageName": "FGC_パスワードを忘れた場合_モバイル",
+    "Title": "パスワードを忘れた場合",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
