@@ -125,6 +125,16 @@
   },
   {
     "ModuleName": "モバイルページ",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Yasuko",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2020-07-17T14:55:29.3847035+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\モバイルページ.json",
+      "UserJaveScript\\4103_モバイル.js"
+    ]
   }
 ]
