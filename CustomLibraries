@@ -1,2 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CustomLibraries />
+<CustomLibraries>
+  <UserJSFileList>
+    <Item class="Forguncy.Model.UserJSOrCssFile" assembly="Forguncy">
+      <Name>Script1.js</Name>
+    </Item>
+  </UserJSFileList>
+</CustomLibraries>

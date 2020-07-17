@@ -1,0 +1,174 @@
+{
+  "Rows": {
+    "Count": 28
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,2": "ここにマウスをあてる",
+    "6,0": "日付"
+  },
+  "AttachInfos": {
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "var p = Forguncy.Page; \r\np.getCell(\"moButton1\").bind(\"click\", function(){\r\n        var textCell = p.getCell(\"momyCell\");\r\n        textCell.setValue(\"フォーガンシー\");\r\n    })",
+            "ID": "fe5174bbbd1c4bab91eeaea04371c2e4"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "6,2": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "4,2": 1,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0,
+      "4,8": 0,
+      "4,9": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,2,1,7",
+    "2,2,1,8",
+    "1,11,2,4",
+    "6,2,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "UserJavaScriptName": "4103_モバイル.js",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+        "JavaScript": "var p = Forguncy.Page;\r\np.ready(function () {\r\n        p.getCell(\"momyCell\").bind(\"mouseenter\", function (e) {\r\n            var textCell = p.getCell(\"motext1\");\r\n            textCell.setValue(\"マウスがあたってます\");\r\n        }\r\n       );\r\n\r\n        p.getCell(\"momyCell\").bind(\"mouseleave\", function (e) {\r\n            var textCell = p.getCell(\"motext1\");\r\n             textCell.setValue(\"\");\r\n        }\r\n        );\r\n}\r\n);",
+        "ID": "abb914902af941b39a7be878040def8d",
+        "Disabled": true
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "momyCell",
+      "Formula": "モバイルページ!$C$3"
+    },
+    {
+      "Name": "moText1",
+      "Formula": "モバイルページ!$C$5"
+    },
+    {
+      "Name": "moButton1",
+      "Formula": "モバイルページ!$L$2"
+    }
+  ]
+}
