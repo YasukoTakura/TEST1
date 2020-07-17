@@ -131,5 +131,15 @@
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "モバイルページ",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Yasuko",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2020-07-17T10:16:14.9057248+09:00",
+    "ModuleType": 2
   }
 ]
