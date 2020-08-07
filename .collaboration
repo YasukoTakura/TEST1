@@ -81,17 +81,7 @@
   },
   {
     "ModuleName": "ページ1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Yasuko",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2020-08-07T16:20:18.2416809+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ページ1.json",
-      "UserJaveScript\\4055.js"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_ユーザーマスターページ",
@@ -135,16 +125,6 @@
   },
   {
     "ModuleName": "モバイルページ",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Yasuko",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2020-07-17T14:55:29.3847035+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\モバイルページ.json",
-      "UserJaveScript\\4103_モバイル.js"
-    ]
+    "ModuleType": 2
   }
 ]
