@@ -129,12 +129,6 @@
   },
   {
     "ModuleName": "ページ2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2020-08-07T16:48:01.4867702+09:00",
     "ModuleType": 1
   }
 ]
