@@ -81,7 +81,17 @@
   },
   {
     "ModuleName": "ページ1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Yasuko",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2020-08-07T16:20:18.2416809+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ページ1.json",
+      "UserJaveScript\\4055.js"
+    ]
   },
   {
     "ModuleName": "FGC_ユーザーマスターページ",
