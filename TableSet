@@ -87,5 +87,45 @@
       </PrimaryKey>
       <Weight>1</Weight>
     </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>20</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>VARCHAR2</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>5</MaxLength>
+          <Name>商品CD</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>VARCHAR2</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>20</MaxLength>
+          <Name>商品名</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Decimal</ColumnType>
+          <DatabaseColumnType>NUMBER</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>単価</Name>
+        </Item>
+      </Columns>
+      <ExternalDatabaseInfo>
+        <DataBaseType>Oracle</DataBaseType>
+        <SourceConnectString>Data Source=orcl;User ID=system;Password=Ora123456;Unicode=True</SourceConnectString>
+        <SourceTableName>商品テーブル</SourceTableName>
+        <SourceTableSchema></SourceTableSchema>
+      </ExternalDatabaseInfo>
+      <Name>商品テーブル</Name>
+    </Item>
   </Tables>
 </TableSet>
