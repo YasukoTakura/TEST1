@@ -101,19 +101,7 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2020-12-10T13:25:26.2721926+09:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\ThemeConfig",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\CellTypeStyles"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
