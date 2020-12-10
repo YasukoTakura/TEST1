@@ -35,7 +35,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var p = Forguncy.Page; \r\np.getCell(\"Button1\").bind(\"click\", function(){\r\n        var textCell = p.getCell(\"myCell\");\r\n        textCell.setValue(\"フォーガンシー\");\r\n    })",
-            "ID": "0036c0488dee4b67a34e59afc714e24a"
+            "ID": "42b8134448334fc9831fee7690c387f7"
           }
         ],
         "TemplateKey": "_RS_Normal_Style2",
@@ -223,10 +223,10 @@
     "2,17,2,5",
     "7,17,1,7",
     "5,17,1,8",
+    "9,17,1,7",
     "2,1,1,2",
     "2,3,1,4",
-    "2,7,1,5",
-    "9,17,1,7"
+    "2,7,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
@@ -235,7 +235,7 @@
       {
         "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
         "JavaScript": "var p = Forguncy.Page;\r\np.ready(function () {\r\n        p.getCell(\"myCell\").bind(\"mouseenter\", function (e) {\r\n            var textCell = p.getCell(\"text1\");\r\n            textCell.setValue(\"マウスがあたってます\");\r\n        }\r\n       );\r\n\r\n        p.getCell(\"myCell\").bind(\"mouseleave\", function (e) {\r\n            var textCell = p.getCell(\"text1\");\r\n             textCell.setValue(\"\");\r\n        }\r\n        );\r\n}\r\n);",
-        "ID": "dd68354e2f8e4761a3491f12fa63ee85",
+        "ID": "2aecf37092ba45118cd9fabff89f3d7c",
         "Disabled": true
       }
     ],

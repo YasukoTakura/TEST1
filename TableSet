@@ -123,7 +123,6 @@
         <DataBaseType>Oracle</DataBaseType>
         <SourceConnectString>Data Source=orcl;User ID=system;Password=Ora123456;Unicode=True</SourceConnectString>
         <SourceTableName>商品テーブル</SourceTableName>
-        <SourceTableSchema></SourceTableSchema>
       </ExternalDatabaseInfo>
       <Name>商品テーブル</Name>
     </Item>
