@@ -81,7 +81,17 @@
   },
   {
     "ModuleName": "ページ1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "YasukoTakura",
+      "Email": "yasuko.takura@grapecity.com"
+    },
+    "LockDateTime": "2021-05-12T10:39:42.2718781+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ページ1.json",
+      "UserJaveScript\\4055.js"
+    ]
   },
   {
     "ModuleName": "モバイルページ",
