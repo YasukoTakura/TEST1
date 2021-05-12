@@ -1,315 +1,99 @@
 [
   {
     "ModuleName": "Pages\\ビルトイン ページ",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.870875+09:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": []
+    "ModuleType": 6
   },
   {
     "ModuleName": "FGC_401ページ",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_401ページ.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_ただいまメンテナンス中です",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_ただいまメンテナンス中です.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_パスワードのリセット",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_パスワードのリセット.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_パスワードのリセット用リンクの送信",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_パスワードのリセット用リンクの送信.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_パスワードの変更",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_パスワードの変更.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_パスワードを忘れた場合",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_パスワードを忘れた場合.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_プロファイルの編集",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_プロファイルの編集.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_メールサブスクリプション",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_メールサブスクリプション.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_ログイン",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:02.8698783+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン ページ\\FGC_ログイン.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\ビルトイン モバイルページ",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3789157+09:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": []
+    "ModuleType": 6
   },
   {
     "ModuleName": "FGC_401ページ_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3779007+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_401ページ_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_ただいまメンテナンス中です_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3779007+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_ただいまメンテナンス中です_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_パスワードのリセット_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3789157+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_パスワードのリセット_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_パスワードのリセット用リンクの送信_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3789157+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_パスワードのリセット用リンクの送信_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_パスワードの変更_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3789157+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_パスワードの変更_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_パスワードを忘れた場合_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3789157+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_パスワードを忘れた場合_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_プロファイルの編集_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3789157+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_プロファイルの編集_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_メールサブスクリプション_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3789157+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_メールサブスクリプション_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_ログイン_モバイル",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:16.3789157+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ビルトイン モバイルページ\\FGC_ログイン_モバイル.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "ページ1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:00:54.419881+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ページ1.json",
-      "UserJaveScript\\4055.js"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "モバイルページ",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:27.5988867+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\モバイルページ.json",
-      "UserJaveScript\\4103_モバイル.js"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "FGC_ユーザーマスターページ",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T11:01:35.2408749+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "Pages\\FGC_ユーザーマスターページ.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T10:56:24.4468781+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -342,15 +126,5 @@
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
     "ModuleType": 15
-  },
-  {
-    "ModuleName": "ページ2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "YasukoTakura",
-      "Email": "yasuko.takura@grapecity.com"
-    },
-    "LockDateTime": "2021-05-12T10:59:54.0118767+09:00",
-    "ModuleType": 1
   }
 ]
