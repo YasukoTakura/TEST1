@@ -271,7 +271,17 @@
   },
   {
     "ModuleName": "モバイルページ",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "YasukoTakura",
+      "Email": "yasuko.takura@grapecity.com"
+    },
+    "LockDateTime": "2021-05-12T11:01:27.5988867+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\モバイルページ.json",
+      "UserJaveScript\\4103_モバイル.js"
+    ]
   },
   {
     "ModuleName": "FGC_ユーザーマスターページ",
