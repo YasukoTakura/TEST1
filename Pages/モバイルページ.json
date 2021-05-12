@@ -7,7 +7,9 @@
   },
   "Values": {
     "2,2": "ここにマウスをあてる",
-    "6,0": "日付"
+    "6,0": "日付",
+    "9,4": "ss",
+    "11,4": "ss"
   },
   "AttachInfos": {
     "1,11": {
@@ -17,7 +19,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var p = Forguncy.Page; \r\np.getCell(\"moButton1\").bind(\"click\", function(){\r\n        var textCell = p.getCell(\"momyCell\");\r\n        textCell.setValue(\"フォーガンシー\");\r\n    })",
-            "ID": "2016f69b356b4a038aa4da12c15b4864"
+            "ID": "b8083951b26c4d9084ff31f9fa7ba71e"
           }
         ],
         "TemplateKey": "_RS_Normal_Style2",
@@ -142,7 +144,7 @@
       {
         "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
         "JavaScript": "var p = Forguncy.Page;\r\np.ready(function () {\r\n        p.getCell(\"momyCell\").bind(\"mouseenter\", function (e) {\r\n            var textCell = p.getCell(\"motext1\");\r\n            textCell.setValue(\"マウスがあたってます\");\r\n        }\r\n       );\r\n\r\n        p.getCell(\"momyCell\").bind(\"mouseleave\", function (e) {\r\n            var textCell = p.getCell(\"motext1\");\r\n             textCell.setValue(\"\");\r\n        }\r\n        );\r\n}\r\n);",
-        "ID": "50406e0f06c848eeb684be99405d886e",
+        "ID": "807a7cc379a54e63aed1254320c6a826",
         "Disabled": true
       }
     ],
