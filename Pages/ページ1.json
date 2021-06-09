@@ -36,7 +36,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var p = Forguncy.Page; \r\np.getCell(\"Button1\").bind(\"click\", function(){\r\n        var textCell = p.getCell(\"myCell\");\r\n        textCell.setValue(\"フォーガンシー\");\r\n    })",
-            "ID": "76f4e6a26e654764b15ae74b68a24a01"
+            "ID": "f81426c0b2d442818e7343ec66494491"
           }
         ],
         "TemplateKey": "_RS_Normal_Style2",
@@ -236,7 +236,7 @@
       {
         "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
         "JavaScript": "var p = Forguncy.Page;\r\np.ready(function () {\r\n        p.getCell(\"myCell\").bind(\"mouseenter\", function (e) {\r\n            var textCell = p.getCell(\"text1\");\r\n            textCell.setValue(\"マウスがあたってます\");\r\n        }\r\n       );\r\n\r\n        p.getCell(\"myCell\").bind(\"mouseleave\", function (e) {\r\n            var textCell = p.getCell(\"text1\");\r\n             textCell.setValue(\"\");\r\n        }\r\n        );\r\n}\r\n);",
-        "ID": "baa5af4d0bf340ea85a07b073e30a533",
+        "ID": "297bd4da59b34c9ba99c0c7c2da7c162",
         "Disabled": true
       }
     ],

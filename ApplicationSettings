@@ -3,7 +3,7 @@
   <IntegrateWithOtherApplication>
     <Password>PmjC$8&amp;Z((Nf</Password>
   </IntegrateWithOtherApplication>
-  <StartPage></StartPage>
+  <StartPage>ページ2</StartPage>
   <UserServicePort>61265</UserServicePort>
   <WebSitePort>41339</WebSitePort>
 </ApplicationSettings>
